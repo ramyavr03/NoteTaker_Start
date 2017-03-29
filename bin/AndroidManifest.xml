@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notetaker_start"
+    android:versionCode="1"
+    android:versionName="1.0" 
+	 android:configChanges="orientation|screenLayout|screenSize">
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.notetaker_start.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.Addingcontents"
+            android:label="@string/title_activity_addingcontents" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.AddImage"
+            android:label="@string/title_activity_add_image" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.Addtext"
+            android:label="@string/title_activity_addtext" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.Listsubjects"
+            android:label="@string/title_activity_listsubjects" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.ExpandableListAdapter"
+            android:label="@string/title_activity_expandable_list_adapter" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.Expandable_MainActivity"
+            android:label="@string/title_activity_expandable__main" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.ExpandableMainActivity"
+            android:label="@string/title_activity_expandable_main" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.ListKeys"
+            android:label="@string/title_activity_list_keys" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.KeyActivity"
+            android:label="@string/title_activity_key" >
+        </activity>
+        <activity
+            android:name="com.example.notetaker_start.ListKeyActivity"
+            android:label="@string/title_activity_list_key" >
+        </activity>
+    </application>
+
+</manifest>

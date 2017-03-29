@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notetaker_start</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="red">#9CE773</color>
+    <color name="blue">#CAC6E9</color>
+    <color name="cream">#FFFFCC</color>
+
+    <string name="title_activity_foldercreation">Foldercreation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="NOTE">    NOTE TAKER </string>
+    <string name="Subject1">Add Subject</string>
+    <string name="Subjects"> View All Subjects</string>
+    <string name="description">Image1</string>
+    <string name="description2">Notebook </string>
+    <string name="description3">Image2 </string>
+    <string name="title_activity_addingcontents">Addingcontents</string>
+    <string name="Name">Subject Name</string>
+ 	<string name="text">Enter value Here</string>
+    <string name="save">Save</string>
+    <string name="Story">View Story</string>
+    <string name="description4">Add Image </string>
+    <string name="description5">Add Text </string>
+    <string name="description6">Enter</string>
+    <string name="Image">Add image </string>
+    <string name="Text">Add text </string>
+    <string name="title_activity_add_image">AddImage</string>
+    <string name="Photo">Take Photo</string>
+    <string name="Picture"> InstaPicture</string>
+    <string name="SaveImage">Save</string>
+    <string name="ShareImage">Share</string>
+    <string name="description7">Seekbar</string>
+    <string name="title_activity_add_text">AddText</string>
+    <string name="write">1. Write</string>
+    <string name="clear">2. Clear</string>
+    <string name="title_activity_addtext">Addtext</string>
+    <string name="title_activity_listsubjects">Listsubjects</string>
+    <string name="title_activity_expandable_list_adapter">ExpandableListAdapter</string>
+    <string name="title_activity_expandable_main">ExpandableMain</string>
+    <string name="title_activity_list_keys">Listkeys</string>
+    <string name="title_activity_key" >Activitykey</string>
+    <string name="title_activity_expandable__main">ExpandMain</string>
+   <string name= "title_activity_list_key">ListKey</string>
+    
+    
+    <!--
+    <string-array name="subjects_array">
+        <item>MSE</item>
+        <item>Data Mining</item>
+        <item>Web</item>
+        <item>XML</item>
+      
+    </string-array>
+
+    -->
+    <string name="title_activity_stable_array_adapter">StableArrayAdapter</string>
+
+</resources>
